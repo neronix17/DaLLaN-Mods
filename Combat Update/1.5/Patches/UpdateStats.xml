@@ -30,20 +30,28 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationConditional">
+		<xpath>*/StatDef[defName = "RangedWeapon_Cooldown"]/parts</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>*/StatDef[defName = "RangedWeapon_Cooldown"]</xpath>
+			<value>
+				<parts></parts>
+			</value>
+		</nomatch>
+	</Operation>
+
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/StatDef[defName = "RangedWeapon_Cooldown"]</xpath>
+		<xpath>*/StatDef[defName = "RangedWeapon_Cooldown"]/parts</xpath>
 		<value>
-			<parts>
-				<li Class="StatPart_Quality">
-					<factorAwful>1.1</factorAwful>
-					<factorPoor>1.05</factorPoor>
-					<factorNormal>1</factorNormal>
-					<factorGood>0.97</factorGood>
-					<factorExcellent>0.92</factorExcellent>
-					<factorMasterwork>0.85</factorMasterwork>
-					<factorLegendary>0.8</factorLegendary>
-				</li>
-			</parts>
+			<li Class="StatPart_Quality">
+				<factorAwful>1.1</factorAwful>
+				<factorPoor>1.05</factorPoor>
+				<factorNormal>1</factorNormal>
+				<factorGood>0.97</factorGood>
+				<factorExcellent>0.92</factorExcellent>
+				<factorMasterwork>0.85</factorMasterwork>
+				<factorLegendary>0.8</factorLegendary>
+			</li>
 		</value>
 	</Operation>
 

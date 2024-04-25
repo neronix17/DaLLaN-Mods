@@ -187,11 +187,11 @@
 		</match>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
+	<!-- <Operation Class="PatchOperationReplace">
 		<xpath>*/ThingSetMakerDef[defName = "Reward_ItemsStandard"]/root/options/li[1]/maxMarketValue</xpath>
 		<value>
 			<maxMarketValue>8500</maxMarketValue>
 		</value>
-	</Operation>
+	</Operation> -->
 
 </Patch>

@@ -121,7 +121,7 @@
 		<description>High tech equipment fractions "Mechalit". Creates kinetic field around the owner, slowing down shells the reducing any received owners damage. At shield there is active the ability "Launch superheated power cell"- type of explosion - EMP, radius explosion - 5 cells. One throw requires one power cell. .</description>
 		<techLevel>Industrial</techLevel>
 		<comps>
-			<li Class="CompProperties_Reloadable">
+			<li Class="CompProperties_ApparelReloadable">
 				<maxCharges>1</maxCharges>
 				<ammoDef>Energx</ammoDef>
 				<ammoCountPerCharge>1</ammoCountPerCharge>
@@ -290,7 +290,7 @@
 		<description>The "Owl" consumable is an ultra-high-tech, non-reproducible consumable from the mehalit faction. It is a modernized kinetic shield equipped with translucent wings made of anti-gravity plates, allowing it to "Glide" on the ground. The wings do not allow flight, but they significantly increase the wearer's speed. The shield creates an invisible magnetic field around the wearer, slowing projectiles and slightly reducing any damage the wearer takes. Also partially covers the wearer's torso and back, increasing their armor values ​​and insulation from temperatures. The anti-gravity plates of the shield reduce the weight of the wearer, allowing more colonists with these sets to be loaded into the transport capsules. The shield has an improved active ability "Throw overheated energy cell" - explosion type - EMP, explosion radius - 3 cells. One roll requires one energy cell. The "Owl" shield has 2 charges of ability and increased throwing accuracy.</description>
 		<techLevel>Spacer</techLevel>
 		<comps>
-			<li Class="CompProperties_Reloadable">
+			<li Class="CompProperties_ApparelReloadable">
 				<maxCharges>2</maxCharges>
 				<ammoDef>Energx</ammoDef>
 				<ammoCountPerCharge>1</ammoCountPerCharge>
@@ -522,7 +522,7 @@
 		<description>The best defense is offense. Equipment set "Absolute" - ultra-high-tech irreproducible equipment of the mehalit faction. It is a modernized kinetic shield equipped with two single-shot Absolute cannons and small wings. The shield creates an invisible magnetic field around the wearer, slowing projectiles and slightly reducing any damage the wearer takes. Also partially covers the wearer's torso and back, increasing their armor values ​​and insulation from temperatures. The cannons do decent area damage without hitting objects and buildings. Slightly increases the movement speed and reduces the weight of the colonist, allowing you to load more colonists with these sets into the transport capsules. The shield has an active ability "Shot Absolute" - the type of explosion - "Absolute" (does not damage buildings and objects), the radius of the explosion is 3 cells. One shot requires one energy cell. The "Absolute" shield has 2 charges of the ability.</description>
 		<techLevel>Spacer</techLevel>
 		<comps>
-			<li Class="CompProperties_Reloadable">
+			<li Class="CompProperties_ApparelReloadable">
 				<maxCharges>2</maxCharges>
 				<ammoDef>Energx</ammoDef>
 				<ammoCountPerCharge>1</ammoCountPerCharge>

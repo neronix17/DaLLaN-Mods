@@ -2,7 +2,7 @@
 <Patch>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThinkTreeDef[defName = "Animal"]/thinkRoot/subNodes/li[19]/subNodes/li[4]</xpath>
+		<xpath>*/ThinkTreeDef[defName = "Animal"]/thinkRoot/subNodes/li[20]/subNodes/li[4]</xpath>
 		<value>
 			<li Class="ThinkNode_ConditionalRequireCapacities">
 				<requiredCapacities>

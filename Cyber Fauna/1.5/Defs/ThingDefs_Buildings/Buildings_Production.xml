@@ -9,7 +9,7 @@
 		<graphicData>
 			<texPath>CFbuild/CFTable</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(3.5,1.5)</drawSize>
+			<drawSize>(3.5,3.5)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>

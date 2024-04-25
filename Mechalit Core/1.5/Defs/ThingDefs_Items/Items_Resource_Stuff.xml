@@ -356,7 +356,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>Elementx</defName>
 		<label>Element X-32</label>
-		<description> A misterious, poorly-studied material, occasionally obtained by the synthesis of tisnite and plasteel using N-16 gas. Little is known about it, but one group of scientists revealed it's abnormal properties - an abrupt acceleration, like a wave of a sword, make X-32 lighter and cause it to emit energy. So, X-32 is a material, a really deadly melee weapon can be crafted from. Also needed for creation of mecha prosthetics.</description>
+		<description>A misterious, poorly-studied material, occasionally obtained by the synthesis of tisnite and plasteel using N-16 gas. Little is known about it, but one group of scientists revealed it's abnormal properties - an abrupt acceleration, like a wave of a sword, make X-32 lighter and cause it to emit energy. So, X-32 is a material, a really deadly melee weapon can be crafted from. Also needed for creation of mecha prosthetics.</description>
 		<graphicData>
 			<texPath>Res/ElemX32tex</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

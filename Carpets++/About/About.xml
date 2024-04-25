@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Carpets++</name>
+	<author>Neronix17 (Originally DaLLaN)</author>
+	<packageId>Neronix17.CarpetsPlusPlus</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>Have you ever wanted to choose the size of the carpet for your premises, and not make the premises to fit the size of the carpets? This mod is for you!
+		The "Carpets +" mod adds 10 unique customizable carpets to the game.
+		and their overall beauty score is added up. There are a lot of colors, because the color of the carpet depends on the textiles from which it is created, for example, for a green carpet.
+		iguana skin is suitable, for red - devil cloth, the type of material also affects the beauty of the carpet. The carpets themselves are not clickable, you cannot click on them with the mouse cursor when they are already built, but they can be disassembled
+		the corresponding order. All rugs from the mod include built-in wiring that is short-circuit proof so you don't have to wiring
+		over carpets where needed. All carpets are opened by appropriate research after Carpet Weaving. The carpets are in the "Structures" tab.
+		All mod carpets can only be built on man-made floors and on quays (in fact, you would not build carpets on sand or soil).
+		There are 10 types of carpets in total, 5 simple and 5 complex carpets:
+
+		Opens with the Carpets + research:
+		-3 types of simple rugs
+		-chess carpet
+		-striped carpet
+
+		Opened with Carpets ++ Research
+		-3 types of intricate carpets
+		-gold carpet
+		-elite carpet
+
+		Please add the mod to your favorites and like it if you like the mod.</description>
+</ModMetaData>

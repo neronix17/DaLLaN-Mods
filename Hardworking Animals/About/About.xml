@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Hardworking Animals</name>
+	<author>Neronix17 (Originally DaLLaN)</author>
+	<packageId>Neronix17.HardworkingAnimals</packageId>
+	<url></url>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>As you may have noticed, animals trained to haul things are quite lazy and doing they work from time to time.
+		This mod makes your animals more hardworking: all animals with hauling skill now haul items and resources a lot more often.
+		Also hauling skill now requires 9 levels to be learned, instead of vanilla 7. It will take more time to train animals, but will finally repay with increased effectiveness.
+		Having hauling animals is more profitable, and now they can serve as a real work force.
+
+		The mod works on the old saves and doesn't require new game. There're no conflicts with other mods that change animals.
+		If you already have animals with trained hauling, after installing the mod you will need to additionally train them from 7th to 9th hauling level.
+
+		Special thanks: Hrosts</description>
+</ModMetaData>

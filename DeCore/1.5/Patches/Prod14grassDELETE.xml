@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Plant_Grass"]/plant</xpath>
+		<value>
+			<harvestYield>2</harvestYield>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Hay</harvestedThingDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Plant_TallGrass"]/plant</xpath>
+		<value>
+			<harvestYield>2</harvestYield>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Hay</harvestedThingDef>
+		</value>
+	</Operation>
+
+</Patch>

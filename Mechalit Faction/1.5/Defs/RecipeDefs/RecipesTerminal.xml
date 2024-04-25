@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef>
+		<defName>ReceiveApparel_AngelShieldMech</defName>
+		<label>Receive Owl Shield</label>
+		<description>Make Owl Shield</description>
+		<jobString>Receiving Owl Shield</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>ResroptLaser</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>100</workAmount>
+		<recipeUsers>
+			<li>MechaTerminal</li>
+		</recipeUsers>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mcoin</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mcoin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Apparel_AngelShieldMech>1</Apparel_AngelShieldMech>
+		</products>
+		<workSkill>Intellectual</workSkill>
+		<researchPrerequisite>ResTerminal</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>ReceiveApparel_BastionShieldMech</defName>
+		<label>Receive Bastion Shield</label>
+		<description>Make Bastion Shield</description>
+		<jobString>Receiving Bastion Shield</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>ResroptLaser</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>100</workAmount>
+		<recipeUsers>
+			<li>MechaTerminal</li>
+		</recipeUsers>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mcoin</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mcoin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Apparel_BastionShieldMech>1</Apparel_BastionShieldMech>
+		</products>
+		<workSkill>Intellectual</workSkill>
+		<researchPrerequisite>ResTerminal</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>ReceiveApparel_AbsoluteShieldMech</defName>
+		<label>Receive "Absolute" Shield</label>
+		<description>Make "Absolute" Shield</description>
+		<jobString>Receiving "Absolute" Shield</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>ResroptLaser</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>100</workAmount>
+		<recipeUsers>
+			<li>MechaTerminal</li>
+		</recipeUsers>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mcoin</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mcoin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Apparel_AbsoluteShieldMech>1</Apparel_AbsoluteShieldMech>
+		</products>
+		<workSkill>Intellectual</workSkill>
+		<researchPrerequisite>ResTerminal</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- ==============================  LEGACY ============================== -->
+
+	<RecipeDef>
+		<defName>ReceiveApparel_ArmorLegacyEliteMeh</defName>
+		<label>Receive "Legacy" armor</label>
+		<description>Make "Legacy" armor</description>
+		<jobString>Receiving "Legacy" armor</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>ResroptLaser</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>100</workAmount>
+		<recipeUsers>
+			<li>MechaTerminal</li>
+		</recipeUsers>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mcoin</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mcoin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Apparel_ArmorLegacyEliteMeh>1</Apparel_ArmorLegacyEliteMeh>
+		</products>
+		<workSkill>Intellectual</workSkill>
+		<researchPrerequisite>ResTerminal</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>ReceiveApparel_HelmetLegacyEliteMeh</defName>
+		<label>Receive "Legacy" helmet</label>
+		<description>Make "Legacy" helmet</description>
+		<jobString>Receiving "Legacy" helmet</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>ResroptLaser</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>100</workAmount>
+		<recipeUsers>
+			<li>MechaTerminal</li>
+		</recipeUsers>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mcoin</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mcoin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Apparel_HelmetLegacyEliteMeh>1</Apparel_HelmetLegacyEliteMeh>
+		</products>
+		<workSkill>Intellectual</workSkill>
+		<researchPrerequisite>ResTerminal</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>ReceiveApparel_ArmorLegacyEliteMehRRR</defName>
+		<label>Receive "R-Legacy" armor</label>
+		<description>Make "R-Legacy" armor</description>
+		<jobString>Receiving "R-Legacy" armor</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>ResroptLaser</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>100</workAmount>
+		<recipeUsers>
+			<li>MechaTerminal</li>
+		</recipeUsers>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mcoin</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mcoin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Apparel_ArmorLegacyEliteMehRRR>1</Apparel_ArmorLegacyEliteMehRRR>
+		</products>
+		<workSkill>Intellectual</workSkill>
+		<researchPrerequisite>ResTerminal</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>ReceiveApparel_HelmetLegacyEliteMehRRR</defName>
+		<label>Receive "R-Legacy" helmet</label>
+		<description>Make "R-Legacy" helmet</description>
+		<jobString>Receiving "R-Legacy" helmet</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>ResroptLaser</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>100</workAmount>
+		<recipeUsers>
+			<li>MechaTerminal</li>
+		</recipeUsers>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mcoin</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mcoin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Apparel_HelmetLegacyEliteMehRRR>1</Apparel_HelmetLegacyEliteMehRRR>
+		</products>
+		<workSkill>Intellectual</workSkill>
+		<researchPrerequisite>ResTerminal</researchPrerequisite>
+	</RecipeDef>
+	<!-- ==============================  GUNS ============================== -->
+
+	<RecipeDef>
+		<defName>ReceiveGun_Winter</defName>
+		<label>Receive "Winter" rifle</label>
+		<description>Make "Winter" rifle</description>
+		<jobString>Receiving "Winter" rifle</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>ResroptLaser</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>100</workAmount>
+		<recipeUsers>
+			<li>MechaTerminal</li>
+		</recipeUsers>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mcoin</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mcoin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gun_Winter>1</Gun_Winter>
+		</products>
+		<workSkill>Intellectual</workSkill>
+		<researchPrerequisite>ResTerminal</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- ==============================  MELEE ============================== -->
+
+	<RecipeDef>
+		<defName>ReceiveMeleeWeapon_PlasmGlaive</defName>
+		<label>Receive Plasma Glaive</label>
+		<description>Make Plasma Glaive</description>
+		<jobString>Receiving Plasma Glaive</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>ResroptLaser</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>100</workAmount>
+		<recipeUsers>
+			<li>MechaTerminal</li>
+		</recipeUsers>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mcoin</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mcoin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MeleeWeapon_PlasmGlaive>1</MeleeWeapon_PlasmGlaive>
+		</products>
+		<workSkill>Intellectual</workSkill>
+		<researchPrerequisite>ResTerminal</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>ReceiveMeleeWeapon_PlasmDisk</defName>
+		<label>Receive Plasma Disk</label>
+		<description>Make Plasma Disk</description>
+		<jobString>Receiving Plasma Disk</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>ResroptLaser</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>100</workAmount>
+		<recipeUsers>
+			<li>MechaTerminal</li>
+		</recipeUsers>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mcoin</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mcoin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MeleeWeapon_PlasmDisk>1</MeleeWeapon_PlasmDisk>
+		</products>
+		<workSkill>Intellectual</workSkill>
+		<researchPrerequisite>ResTerminal</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>ReceiveMeleeWeapon_ImpulseGlove</defName>
+		<label>Receive Impulse Glove</label>
+		<description>Make Impulse Glove</description>
+		<jobString>Receiving Impulse Glove</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>ResroptLaser</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>100</workAmount>
+		<recipeUsers>
+			<li>MechaTerminal</li>
+		</recipeUsers>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mcoin</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mcoin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MeleeWeapon_ImpulseGlove>1</MeleeWeapon_ImpulseGlove>
+		</products>
+		<workSkill>Intellectual</workSkill>
+		<researchPrerequisite>ResTerminal</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

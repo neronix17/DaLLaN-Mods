@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Jelly Farm</name>
+	<author>Neronix17 (Originally DaLLaN)</author>
+	<packageId>Neronix17.JellyFarm</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>The infestation event is, by now, one of the most dangerous events, but in reward of winning player gets only a pile of dead bugs and dirty rooms. Is it the worthy reward for such a challenge?
+		I think no.
+		Have you ever dreamed of being a jelly tycoon? Now you have the opportunity to become one.
+		This mod allows you to get insect jelly from hives and glow pods. By destroying hives and deconstructing glow pods you can get their parts, which can be used to create jelly farms. Also some steel and components are needed for construction.
+		Jelly farms produce insect jelly once in 7 days and require electricity to remain functional.
+		Jelly farm is unlocked by hydroponics research.
+		Hive pieces and glow pod parts can be sold to exotic goods trader.
+
+		The mod works on the old saves and doesn't require new game.
+
+		Special thanks: Hrosts</description>
+</ModMetaData>

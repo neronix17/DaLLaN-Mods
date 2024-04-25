@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BaseWeapon">
+		<defName>MeleeWeapon_PlasmGlaive</defName>
+		<label>Plasma Glaive</label>
+		<description>A powerful melee synchro weapon, does not do as much damage as a plasma disk, but it gives the owner psi-bonuses and acquires unique traits (with the addition of Royalty).</description>
+		<graphicData>
+			<texPath>Weapon/PlasmaGlaiveQ</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<generateCommonality>0.3</generateCommonality>
+		<statBases>
+			<MarketValue>4600</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.5</MoveSpeed>
+		</equippedStatOffsets>
+		<equippedAngleOffset>-15</equippedAngleOffset>
+		<weaponTags>
+			<li>MechaMeleeTurbo</li>
+			<li>Bladelink</li>
+		</weaponTags>
+		<tradeability>Sellable</tradeability>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>0.9</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>0.9</cooldownTime>
+				<armorPenetration>0.8</armorPenetration>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>0.9</cooldownTime>
+				<armorPenetration>0.8</armorPenetration>
+			</li>
+		</tools>
+		<thingCategories>
+			<li>WeaponsMeleeBladelink</li>
+		</thingCategories>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+
+		<!--==================== Bladelink ======================== -->
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+		<techLevel>Ultra</techLevel>
+		<tradeNeverStack>true</tradeNeverStack>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+
+	</ThingDef>
+
+	<!--============================================ DISK ================================================ -->
+
+	<ThingDef ParentName="BaseWeapon">
+		<defName>MeleeWeapon_PlasmDisk</defName>
+		<label>Plasma Disk</label>
+		<description>Weapon near battlefield crushing power. Circular motion plasma incisors cuts on pieces what whatever, behind give me a sec this weapons leaves so many wounds on the goals, what her becomes practically not possibly cure. With small a chance can stun target.</description>
+		<graphicData>
+			<texPath>Weapon/PlasmaDiskQ</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<generateCommonality>0.2</generateCommonality>
+		<meleeHitSound>SoundGun_TronDisk</meleeHitSound>
+		<statBases>
+			<MarketValue>4800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<equippedStatOffsets>
+			<MoveSpeed>0.4</MoveSpeed>
+		</equippedStatOffsets>
+		<equippedAngleOffset>-55</equippedAngleOffset>
+		<weaponTags>
+			<li>MechaMeleeTurbo</li>
+			<li>Bladelink</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>0.09</cooldownTime>
+				<armorPenetration>0.6</armorPenetration>
+				<!--extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>1</amount>
+			<chance>0.05</chance>
+          </li>
+        </extraMeleeDamages-->
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>0.09</cooldownTime>
+				<armorPenetration>1</armorPenetration>
+				<extraMeleeDamages>
+					<li>
+						<def>MechaDisk</def>
+						<amount>1</amount>
+					</li>
+				</extraMeleeDamages>
+			</li>
+		</tools>
+		<thingCategories>
+			<li>WeaponsMeleeBladelink</li>
+		</thingCategories>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+
+		<!--==================== Bladelink ======================== -->
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+		<techLevel>Ultra</techLevel>
+		<tradeNeverStack>true</tradeNeverStack>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+	</ThingDef>
+
+	<DamageDef Name="Bomb">
+		<defName>MechaDisk</defName>
+		<label>Plasma Disk</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<isExplosive>true</isExplosive>
+		<deathMessage>{0} has died in an Plasma Disk.</deathMessage>
+		<hediff>Shredded</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<minDamageToFragment>5</minDamageToFragment>
+		<defaultDamage>5</defaultDamage>
+		<defaultStoppingPower>0.5</defaultStoppingPower>
+		<defaultArmorPenetration>0.50</defaultArmorPenetration>
+		<buildingDamageFactor>2</buildingDamageFactor>
+		<plantDamageFactor>2</plantDamageFactor>
+		<explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+		<explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+		<explosionCellFleck>BlastDry</explosionCellFleck>
+		<explosionColorCenter>(0.1, 0.99, 0.1)</explosionColorCenter>
+		<explosionColorEdge>(0.01, 0.99, 0.99)</explosionColorEdge>
+		<soundExplosion>Explosion_Bomb</soundExplosion>
+		<combatLogRules>Damage_Bomb</combatLogRules>
+	</DamageDef>
+
+	<!--============================================ IMPULSE GLOVE ================================================ -->
+
+	<ThingDef ParentName="BaseWeapon">
+		<defName>MeleeWeapon_ImpulseGlove</defName>
+		<label>Impulse Glove</label>
+		<description>Unique synchro melee weapon. It looks like an ordinary robotic glove with servos, slightly amplifying the impact. But in fact, when struck, the glove accumulates a powerful impulse, soon releasing it, causing colossal damage. The impulse spreads throughout the victim's body, causing damage to several parts of the body at once, with a successful combination of circumstances, it can knock out even a large opponent. Has a 20% chance to deal 10 times more damage to the target.</description>
+		<graphicData>
+			<texPath>Weapon/ImpulseGlove4</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<meleeHitSound>Pawn_Melee_Punch_HitBuilding</meleeHitSound>
+		<statBases>
+			<MarketValue>4700</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<generateCommonality>0.2</generateCommonality>
+		<equippedStatOffsets>
+			<MoveSpeed>0.5</MoveSpeed>
+		</equippedStatOffsets>
+		<equippedAngleOffset>75</equippedAngleOffset>
+		<weaponTags>
+			<li>MechaMeleeTurbo</li>
+			<li>Bladelink</li>
+		</weaponTags>
+		<tradeability>Sellable</tradeability>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>0.55</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+						<def>ExecutionCutPunch</def>
+						<amount>70</amount>
+						<chance>0.2</chance>
+						<armorPenetration>1.8</armorPenetration>
+					</li>
+				</extraMeleeDamages>
+			</li>
+		</tools>
+		<thingCategories>
+			<li>WeaponsMeleeBladelink</li>
+		</thingCategories>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+
+		<!--==================== Bladelink ======================== -->
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+		<techLevel>Ultra</techLevel>
+		<tradeNeverStack>true</tradeNeverStack>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+	</ThingDef>
+
+	<DamageDef ParentName="CutBase">
+		<defName>ExecutionCutPunch</defName>
+		<label>PUNCH</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<execution>true</execution>
+		<hediff>ExecutionCutP</hediff>
+		<hediffSkin>ExecutionCutP</hediffSkin>
+		<deathMessage>{0} has been PUNCH.</deathMessage>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<minDamageToFragment>25</minDamageToFragment>
+		<hasForcefulImpact>false</hasForcefulImpact>
+		<canInterruptJobs>false</canInterruptJobs>
+		<impactSoundType>Electric</impactSoundType>
+		<soundExplosion>Explosion_Bomb</soundExplosion>
+		<damageEffecter>Impact_ToxicQ</damageEffecter>
+
+	</DamageDef>
+
+	<ThingDef ParentName="MoteBase">
+		<defName>Mote_ToxicDamageQ</defName>
+		<graphicData>
+			<texPath>WProg/Glovepunch</texPath>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<mote>
+			<fadeInTime>0.04</fadeInTime>
+			<solidTime>0.04</solidTime>
+			<fadeOutTime>0.5</fadeOutTime>
+		</mote>
+	</ThingDef>
+	<ThingDef ParentName="MoteBase">
+		<defName>Mote_ToxicDamagePunch</defName>
+		<graphicData>
+			<texPath>WProg/GlovepunchT</texPath>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<mote>
+			<fadeInTime>0.08</fadeInTime>
+			<solidTime>0.97</solidTime>
+			<fadeOutTime>1</fadeOutTime>
+		</mote>
+	</ThingDef>
+
+	<EffecterDef>
+		<defName>Impact_ToxicQ</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<moteDef>Mote_ToxicDamageQ</moteDef>
+				<positionRadius>0.3</positionRadius>
+				<burstCount>30</burstCount>
+				<scale>0.3~0.7</scale>
+				<color>(1,1,1,0.9)</color>
+				<rotationRate>-60~60</rotationRate>
+				<speed>1.4~9.8</speed>
+				<!--angle>135~225</angle-->
+				<spawnLocType>OnSource</spawnLocType>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<moteDef>Mote_ToxicDamagePunch</moteDef>
+				<positionRadius>0.3</positionRadius>
+				<burstCount>1</burstCount>
+				<scale>1~1</scale>
+				<color>(1,1,1,0.8)</color>
+				<rotationRate>90~90</rotationRate>
+				<speed>0.4~2.8</speed>
+				<absoluteAngle>true</absoluteAngle>
+				<!--angle>135~225</angle-->
+				<spawnLocType>OnSource</spawnLocType>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+				<soundDef>Explosion_SmokePunch</soundDef>
+				<spawnLocType>OnSource</spawnLocType>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+				<soundDef>SoundGun_Disk</soundDef>
+				<spawnLocType>OnSource</spawnLocType>
+			</li>
+		</children>
+	</EffecterDef>
+
+	<HediffDef ParentName="InjuryBase">
+		<defName>ExecutionCutP</defName>
+		<label>&lt;color=#2AFFDA&gt;PUNCH!!!&lt;/color&gt;</label>
+		<labelNoun>PUNCH!!!</labelNoun>
+		<description>PUNCH!!!</description>
+		<injuryProps>
+			<canMerge>false</canMerge>
+			<destroyedLabel>BRUTAL PUNCH!!!</destroyedLabel>
+			<painPerSeverity>0.02</painPerSeverity>
+		</injuryProps>
+	</HediffDef>
+
+</Defs>

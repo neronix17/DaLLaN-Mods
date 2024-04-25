@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>MultiCloth</defName>
+		<label>Multicloth</label>
+		<description>A low quality textile, made from cloth or skin. Can't be used to craft clothes. Can be used to make synthread.</description>
+		<graphicData>
+			<texPath>Cloth/Cloth2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(178,112,112)</color>
+		</graphicData>
+		<statBases>
+			<StuffPower_Armor_Sharp>0.31</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.14</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>1</MarketValue>
+			<Mass>0.02</Mass>
+			<Flammability>1.2</Flammability>
+			<DeteriorationRate>5</DeteriorationRate>
+		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0.05</commonality>
+			<color>(161,114,129)</color>
+			<statFactors>
+				<Flammability>1.1</Flammability>
+			</statFactors>
+		</stuffProps>
+		<thingCategories>
+			<li>Textiles</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>ThermoCloth</defName>
+		<label>Thermothread</label>
+		<description>A semi-synthetic textile with great insulating properties. Made from synthread and wool.</description>
+		<graphicData>
+			<texPath>Cloth/ThermoCloth</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<MarketValue>10</MarketValue>
+			<Mass>0.04</Mass>
+			<Flammability>0.1</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+			<StuffPower_Armor_Sharp>1.8</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>4</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>40</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>40</StuffPower_Insulation_Heat>
+		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<minRewardCount>30</minRewardCount>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0.1</commonality>
+			<color>(240,220,255)</color>
+			<statFactors>
+				<Flammability>0.1</Flammability>
+				<MaxHitPoints>2</MaxHitPoints>
+				<Beauty>5</Beauty>
+			</statFactors>
+		</stuffProps>
+		<thingCategories>
+			<li>Textiles</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>MechaCloth</defName>
+		<label>Mechaweave</label>
+		<description>A hi-tech textile, made from hyperweave and devilstrand. Gives good protection both from damage and extreme temperatures.</description>
+		<graphicData>
+			<texPath>Cloth/MechaCloth</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<MarketValue>12</MarketValue>
+			<Mass>0.06</Mass>
+			<Flammability>0.3</Flammability>
+			<DeteriorationRate>0.3</DeteriorationRate>
+			<StuffPower_Armor_Sharp>2.35</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>3</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>28</StuffPower_Insulation_Heat>
+		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<minRewardCount>30</minRewardCount>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0.03</commonality>
+			<color>(136,33,76)</color>
+			<statFactors>
+				<Flammability>0.3</Flammability>
+				<MaxHitPoints>4</MaxHitPoints>
+				<Beauty>6</Beauty>
+			</statFactors>
+		</stuffProps>
+		<thingCategories>
+			<li>Textiles</li>
+		</thingCategories>
+	</ThingDef>
+
+</Defs>

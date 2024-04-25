@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>MechaGen</defName>
+		<label>Mechalit Gen</label>
+		<description>A standard gene that is implanted in many fighters of the Mechalit faction. It grants partial immunity to toxins, increased regeneration, and immunity to diseases.</description>
+		<descriptionShort>A standard gene that is implanted in many fighters of the Mechalit faction. It grants partial immunity to toxins, increased regeneration, and immunity to diseases.</descriptionShort>
+		<iconPath>Other2/TownMehRed4</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>ToxResist_Mechalit</li>
+		</genes>
+	</XenotypeDef>
+
+</Defs>

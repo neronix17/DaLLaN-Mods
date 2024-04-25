@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>NanoTeleport_Meh</defName>
+		<label>NanoTeleport</label>
+		<description>All warriors of the Mechalit faction are equipped with this device. It teleports from the battlefield all the equipment and weapons of the defeated warrior, so that nothing gets to the enemies. Teleport is disposable and self-destruct when triggered.</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Other2/NanoTeleport</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>20</MarketValue>
+			<Mass>0.1</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<destroyOnDrop>true</destroyOnDrop>
+		<generateCommonality>0</generateCommonality>
+		<tradeability>None</tradeability>
+	</ThingDef>
+
+</Defs>

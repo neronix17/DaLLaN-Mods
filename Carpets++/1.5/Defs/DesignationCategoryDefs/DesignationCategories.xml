@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<DesignationCategoryDef>
+		<defName>FurnitureCarpetsPP</defName>
+		<label>Carpets++</label>
+		<description>Creeping carpets of any shape from the "Carpets ++" mods, which are not a surface. Studied by the research "Carpets +" and "Carpets ++"</description>
+		<order>11</order> <!-- Near Furniture -->
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+		</specialDesignatorClasses>
+	</DesignationCategoryDef>
+	
+</Defs>

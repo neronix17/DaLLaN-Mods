@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Fast Regen</name>
+	<author>Neronix17 (Originally DaLLaN)</author>
+	<packageId>Neronix17.FastRegen</packageId>
+	<url></url>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>In A16 health regeneration speed was lowered, resulting in colonists that end up spending more than 2-3 days in beds to fully heal. It makes hardcore scenarios extremely hard, if not impossible to play. Wounded colonists constantly get mental breaks then fight with other colonists and end up becoming even more wounded and angry and so on..
+		This significantly reduces the game's dynamics. I've decided to fix it.
+
+		The Fast Regen mod adds to the game 3 special medical beds for colonists (2 for animals) for 3 different tech levels.
+		These beds provide a regeneration boost much stronger than common hospital beds.
+
+		Thanks: Hrosts and Greeceball (Stel.io)</description>
+</ModMetaData>

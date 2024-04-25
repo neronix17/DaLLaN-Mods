@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>CarpetsP</defName>
+		<label>Carpets+</label>
+		<description>Research allows the creation of simple creeping carpets that are not a covering, but which can be chosen in any shape. At the same time, the beauty of the covering and the beauty of the carpet are summed up in each cell. Carpets can be created from any textile, the type of textile affects the color and beauty of the carpet. Carpets contain wires to which buildings can be discreetly connected. The carpets are in the "Structures" section.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>CarpetMaking</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1.4</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>CarpetsPP</defName>
+		<label>Carpets++</label>
+		<description>Research allows the creation of intricate, patterned creeping carpets that are not a covering, but which can be chosen in any shape. At the same time, the beauty of the covering and the beauty of the carpet are summed up in each cell. Carpets can be created from any textile, the type of textile affects the color and beauty of the carpet. Carpets contain wires to which buildings can be discreetly connected.</description>
+		<baseCost>1200</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>CarpetsP</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1.4</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

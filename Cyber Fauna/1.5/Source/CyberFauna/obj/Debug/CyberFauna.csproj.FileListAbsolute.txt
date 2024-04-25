@@ -1,0 +1,4 @@
+F:\RWModCategories\Neronix17\_DaLLaN_Mods\Cyber Fauna\1.5\Assemblies\CyberFauna.dll
+F:\RWModCategories\Neronix17\_DaLLaN_Mods\Cyber Fauna\1.5\Source\CyberFauna\obj\Debug\CyberFauna.csproj.AssemblyReference.cache
+F:\RWModCategories\Neronix17\_DaLLaN_Mods\Cyber Fauna\1.5\Source\CyberFauna\obj\Debug\CyberFauna.csproj.CoreCompileInputs.cache
+F:\RWModCategories\Neronix17\_DaLLaN_Mods\Cyber Fauna\1.5\Source\CyberFauna\obj\Debug\CyberFauna.dll

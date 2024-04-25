@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TraderKindDef>
+		<defName>Caravan_Mechalit_BulkGoods</defName>
+		<label>Mechalit bulk goods trader</label>
+		<stockGenerators>
+
+			<!-- Resources -->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>3750~6200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentIndustrial</thingDef>
+				<countRange>30~40</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentSpacer</thingDef>
+				<countRange>-10~2</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Tisnit</thingDef>
+				<countRange>550~800</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Simerium</thingDef>
+				<countRange>500~900</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Phasarium</thingDef>
+				<countRange>600~900</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Eftam</thingDef>
+				<countRange>800~1200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Myrithium</thingDef>
+				<totalPriceRange>500~5000</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Vilanit</thingDef>
+				<totalPriceRange>500~5000</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Elementx</thingDef>
+				<totalPriceRange>500~5000</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Teachmat</thingDef>
+				<totalPriceRange>200~500</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Gasnenkj</thingDef>
+				<totalPriceRange>500~5000</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mechanites</thingDef>
+				<totalPriceRange>1000~5000</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Energx</thingDef>
+				<totalPriceRange>1000~5000</totalPriceRange>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ThermoCloth</thingDef>
+				<totalPriceRange>500~5000</totalPriceRange>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MechaCloth</thingDef>
+				<totalPriceRange>500~5000</totalPriceRange>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ThermoCloth</thingDef>
+				<countRange>50~200</countRange>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MechaCloth</thingDef>
+				<countRange>100~200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MechanComp</thingDef>
+				<countRange>5~30</countRange>
+			</li>
+			<!-- Drugs -->
+
+			<!-- Techprints -->
+			<!-- none -->
+
+			<!-- Weapons -->
+			<!-- none -->
+
+			<!-- Apparel -->
+
+			<!-- Implants -->
+			<!-- none -->
+
+			<!-- Buildings -->
+
+			<!-- Exotic -->
+			<!-- none -->
+
+			<!-- Slaves -->
+			<!-- none -->
+
+			<!-- Animals -->
+
+			<!-- Buying -->
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Art</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>MusicalInstrument</tag>
+			</li>
+
+		</stockGenerators>
+	</TraderKindDef>
+
+	<!--======================================================================================-->
+
+	<TraderKindDef>
+		<defName>Caravan_Mechalit_CombatSupplier</defName>
+		<label>Mechalit combat supplier</label>
+		<stockGenerators>
+
+			<!-- Resources -->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>3750~5200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<countRange>10~20</countRange>
+			</li>
+
+			<!-- Drugs -->
+			<!-- none -->
+
+			<!-- Techprints -->
+			<li Class="StockGenerator_Techprints">
+				<countChances>
+					<li>
+						<count>1</count>
+						<chance>1</chance>
+					</li>
+				</countChances>
+			</li>
+
+			<!-- Weapons -->
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>WeaponRanged</tradeTag>
+				<countRange>5~5</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>MechaSell</tradeTag>
+				<thingDefCountRange>6~25</thingDefCountRange>
+				<countRange>1~5</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>MortarShell</tradeTag>
+				<thingDefCountRange>1~2</thingDefCountRange>
+				<countRange>3~15</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MeleeWeapon_PlasmBlade</thingDef>
+				<countRange>3~6</countRange>
+			</li>
+
+			<!--li Class="StockGenerator_SingleDef">
+        <thingDef>MeleeWeapon_PlasmGlaive</thingDef>
+        <countRange>0~1</countRange>
+      </li>
+	  	        <li Class="StockGenerator_SingleDef">
+        <thingDef>MeleeWeapon_PlasmDisk</thingDef>
+        <countRange>0~1</countRange>
+      </li-->
+
+			<!-- Apparel -->
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Armor</tradeTag>
+				<countRange>5~5</countRange>
+			</li>
+
+			<!-- Implants -->
+			<!-- none -->
+
+			<!-- Buildings -->
+			<!-- none -->
+
+			<!-- Exotic -->
+			<!-- none -->
+
+			<!-- Slaves -->
+			<!-- none -->
+
+			<!-- Animals -->
+			<!-- none -->
+
+			<!-- Buying -->
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Art</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>HiTechArmor</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>MusicalInstrument</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Drugs</tag>
+			</li>
+
+		</stockGenerators>
+	</TraderKindDef>
+
+	<!--======================================================================================-->
+
+	<!--======================================================================================-->
+
+	<TraderKindDef>
+		<defName>Caravan_Mechalit_Exotic</defName>
+		<label>Mechalit exotic goods trader</label>
+		<stockGenerators>
+
+			<!-- Resources -->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>4750~7200</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentIndustrial</thingDef>
+				<countRange>50~80</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentSpacer</thingDef>
+				<countRange>30~40</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Mechanites</thingDef>
+				<totalPriceRange>500~2000</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Energx</thingDef>
+				<totalPriceRange>400~1840</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineUltratech</thingDef>
+				<countRange>7~25</countRange>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MechanComp</thingDef>
+				<countRange>10~30</countRange>
+			</li>
+
+			<!-- Drugs -->
+			<!-- none -->
+
+			<!-- Techprints -->
+			<li Class="StockGenerator_Techprints">
+				<countChances>
+					<li>
+						<count>3</count>
+						<chance>1</chance>
+					</li>
+				</countChances>
+			</li>
+
+			<!-- Weapons -->
+			<!-- none -->
+
+			<!-- Apparel -->
+			<!-- none -->
+
+			<!-- Implants -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>MechaProstheses</tradeTag>
+				<thingDefCountRange>2~4</thingDefCountRange>
+				<countRange>1~4</countRange>
+			</li>
+
+			<!-- Buildings -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Television</tradeTag>
+				<thingDefCountRange>1~2</thingDefCountRange>
+				<countRange>1~1</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Telescope</thingDef>
+				<countRange>0~1</countRange>
+			</li>
+
+			<!-- Exotic -->
+			<li Class="StockGenerator_Tag">
+				<tradeTag>ExoticMisc</tradeTag>
+				<thingDefCountRange>3~8</thingDefCountRange>
+				<countRange>1~4</countRange>
+				<excludedThingDefs>
+					<li>MedicineUltratech</li> <!-- already handled by single def -->
+					<li>ComponentSpacer</li> <!-- already handled by single def -->
+				</excludedThingDefs>
+				<customCountRanges>
+					<Luciferium>20~50</Luciferium>
+					<Hyperweave>100~250</Hyperweave>
+				</customCountRanges>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Artifact</tradeTag>
+				<thingDefCountRange>2~2</thingDefCountRange>
+				<countRange>1~1</countRange>
+			</li>
+
+			<!-- Slaves -->
+			<!-- none -->
+
+			<!-- Animals -->
+			<li Class="StockGenerator_Animals">
+				<tradeTagsSell>
+					<li>AnimalUncommon</li>
+					<li>AnimalFighter</li>
+				</tradeTagsSell>
+				<tradeTagsBuy>
+					<li>AnimalExotic</li>
+				</tradeTagsBuy>
+				<kindCountRange>3~6</kindCountRange>
+				<countRange>1~4</countRange>
+			</li>
+
+			<!-- Buying -->
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Art</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>ImplantEmpireCommon</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>ImplantEmpireRoyal</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>PsylinkNeuroformer</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>ExoticBuilding</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>MusicalInstrument</tag>
+			</li>
+
+		</stockGenerators>
+	</TraderKindDef>
+
+</Defs>

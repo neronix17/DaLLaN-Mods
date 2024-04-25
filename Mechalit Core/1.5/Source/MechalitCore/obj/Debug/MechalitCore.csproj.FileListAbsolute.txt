@@ -1,0 +1,4 @@
+F:\RWModCategories\Neronix17\_DaLLaN_Mods\Mechalit Core\1.5\Assemblies\MechalitCore.dll
+F:\RWModCategories\Neronix17\_DaLLaN_Mods\Mechalit Core\1.5\Source\MechalitCore\obj\Debug\MechalitCore.csproj.AssemblyReference.cache
+F:\RWModCategories\Neronix17\_DaLLaN_Mods\Mechalit Core\1.5\Source\MechalitCore\obj\Debug\MechalitCore.csproj.CoreCompileInputs.cache
+F:\RWModCategories\Neronix17\_DaLLaN_Mods\Mechalit Core\1.5\Source\MechalitCore\obj\Debug\MechalitCore.dll

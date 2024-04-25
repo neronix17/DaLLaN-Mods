@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>DoBillsMechaWorkbench</defName>
+		<label>wegwgwig owigow </label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>130</priorityInType>
+		<fixedBillGiverDefs>
+			<li>MechaWorkbench</li>
+		</fixedBillGiverDefs>
+		<verb>create</verb>
+		<gerund>creating</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+</Defs>

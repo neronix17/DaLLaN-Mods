@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--GeneDef Name="GeneToxResistBase" Abstract="True">
+    <displayCategory>ResistanceAndWeakness</displayCategory>
+    <exclusionTags>
+      <li>ToxResistance</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneToxResistBase">
+    <defName>ToxResist_Partial</defName>
+    <label>tox resistance</label>
+    <labelShortAdj>tox-resistant</labelShortAdj>
+    <description>Carriers of this gene are resistant to toxic buildup from any source. This includes pollution, toxic fallout, tox gas, and direct attacks with venom or injected poison. They'll gain half the amount of toxic buildup compared to others.\n\nCellular filters in the lung and skin reduce the dose of toxins entering the bloodstream.</description>
+    <iconPath>UI/Icons/Genes/Gene_PartialToxicityResistance</iconPath>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <statOffsets>
+      <ToxicResistance>0.5</ToxicResistance>
+    </statOffsets>
+    <biostatMet>-2</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>tox</symbol>
+          <weight>3</weight>
+        </li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef-->
+
+	<GeneDef>
+		<defName>ToxResist_Mechalit</defName>
+		<label>Mechalit gen</label>
+		<labelShortAdj>Mechalit gen</labelShortAdj>
+		<description>A standard gene that is implanted in many fighters of the Mechalit faction. It grants partial immunity to toxins, increased regeneration, and immunity to diseases.</description>
+		<iconPath>Other2/TownMehRed4</iconPath>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<displayCategory>Archite</displayCategory>
+		<immuneToToxGasExposure>true</immuneToToxGasExposure>
+		<customEffectDescriptions>
+			<li>Tox gas immunity</li>
+		</customEffectDescriptions>
+		<statOffsets>
+			<ToxicResistance>0.7</ToxicResistance>
+			<InjuryHealingFactor>0.35</InjuryHealingFactor>
+			<ImmunityGainSpeed>0.35</ImmunityGainSpeed>
+		</statOffsets>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-1</biostatMet>
+	</GeneDef>
+
+</Defs>

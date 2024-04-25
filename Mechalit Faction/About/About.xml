@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Mechalit Faction</name>
+	<author>Neronix17 (Originally DaLLaN)</author>
+	<packageId>Neronix17.MechalitFaction</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>This is the second mod in the "Mechalit" mod series, and also a prepartional one before the third mod, that will add Mechalit faction itself and some new powerful mechanoids.
+		Mechalit Eqipment is focused mainly on textile and weaponry: adds synthread and hyperweave crafting recipes,
+		new types of textile and a wey to craft them, new equpment and weapons of the Mechalit faction. New hi-tech stuff should make game more enjoyable on later stages.
+		The mod is compatible with old saves and doesn't require new game, but Mechalit Core mod is needed.
+
+		FEATURES:
+		-9 new research projects
+		-new mecha-workbench
+		-ability to process unneeded skin into special material, and then - into synthread and hyperweave
+		-synthread and hyperweave craft
+		-new apparel
+		-new helmets and armor
+		-new futuristic weapons with unique sound effects
+		-new battle belts
+
+		-SYNTHREAD AND HYPERWEAVE CRAFT:
+		Both synthread and hyperweave are now available for craft on mecha-workbench, but it will require big amount of multicloth and other resources.
+		(For balance, market value of hyperweave was lowered from 16 to 8)
+
+		-NEW TYPES OF FABRICS:
+		-Multicloth - made from cloth or skin, using the N-16 gas (from the Mechalit Core mod). Can't be used to craft clothes. Can be used to make synthread.
+		-Thermothread - a semi-synthetic textile with great insulating properties. Made from synthread and wool.
+		-Mechaweave - a hi-tech textile, made from hyperweave and devilstrand. Gives good protection both from damage and extreme temperatures.
+
+		-NEW SUITS:
+		Suits cover the whole body and take 2 clothing slots (shirt and pants).
+		-Thermosuit - fully covers the body, keeping its temperature normal. Greatly protects from heat and cold, but offers almost no damage reduction.
+		-Protective suit - covers the whole body, protecting it from various types of damage. Slighly reduces movement and work speeds.
+		-Worker's exosuit - covers the whole body. Grants little protection, but increases movement and work speeds thanks to built-in servos.
+
+		-NEW BELTS:
+		-Train belt - It is attached to the waist and connects to the spinal cord. It facilitates the rapid assimilation of information and the improvement of muscle memory, and therefore increases the learning factor for everything.
+		Side effects: reduces the speed of work, the rate of absorption of food, increases the threshold of nervous breakdown. The training belt is necessary for colonists with a low level of any skill in order to develop it as quickly as possible.
+		Added a new Belt Kinetic Shield. High-tech equipment of the mehalit faction. Creates a kinetic field around the wearer, slowing projectiles and reducing any damage the wearer takes.
+		The shield has an active ability "Throw overheated energy cell"
+		-The "Owl" consumable is a super-high-tech irreproducible consumable of the mehalit faction. It is a modernized kinetic shield equipped with translucent wings made of anti-gravity plates, allowing it to "Glide" on the ground. The wings do not give flight, but they significantly increase the speed of the wearer. The shield has an improved active ability "Throw overheated energy cell"
+		-Shield "Bastion" is a super-high-tech non-reproducible equipment of the mehalit faction. It is a device that combines the principles of a belt-shield and a kinetic shield, being the ideal solution for melee fighters. Has no active abilities.
+		-The "Absolute" consumable is a super-high-tech, irreproducible consumable from the mehalit faction. It is a modernized kinetic shield equipped with two single-shot Absolute cannons and small wings. The shield creates an invisible magnetic field around the wearer, slowing projectiles and slightly reducing any damage the wearer takes. The cannons do decent area damage without hitting objects and buildings. The shield has an active ability "Shot Absolute" - the type of explosion - "Absolute".
+
+		-NEW HELMETS AND MECHALIT FACTION ARMOR SET:
+		-Tactical helmet - an advanced helmet with visor. Protects your head and makes you shots more accurate.
+		-"Puma" helmet - an advanced tactical software enhances fighter's melee efficiency, while special covering protects from psi-effects. Offers small protection, compared to power armor helmet.
+		-Mechalit helmet (blue and red) - a high-tech helmet with visor and psi-protection. Offers good protection against all types of damage. High-class tactical software assits in aiming and learning.
+		-Mechalit armor (blue and red) - a hi-tech piece of armor with mechanite controlled life support system. Greatly increases wearer's survival rate and boosts many of his stats.
+		-Armor and helmet "Legacy" - this decorative-looking armor is actually an ancient development of the best minds of the Mechalit faction "- nowadays an unreproducible technology. This armor was intended for the deserved supreme commanders of the faction, it not only emphasizes the status of the owner, but it also protects it well, practically without reducing mobility. The armor is equipped with a built-in kinetic shield, which reduces any damage received. And the built-in neural network of the helmet shows the target's vulnerabilities and all trajectories of movement, greatly helping the wearer both in close combat and in long range. But the main feature is of this armor - its "invulnerability." The lost technology of mechanite regeneration instantly restores any damage to the armor, and over time the armor does not wear out. Fathers pass it on to their children, and those to their children, which is why the armor got such a name. With the included Royalty add-on, the armor improves psi- characteristics of the owner and is suitable for nobility with the title "Earl" inclusive.
+
+		-NEW WEAPONS:
+		-"Amber" pistol - good damage and fire rate.
+		-"Neptune" SMG - cheap, low damage, but high fire rate.
+		-Plasmagun - two-barreled plasma rifle. Deals average damage over a long distance.
+		-"Flash" - shoots pieces of hot metal. Sometimes can set the target on fire.
+		-"Dolphin" shotgun - deals huge damage on short distances.
+		-Mecharifle - a Mechalit sniper rifle. Good rate of fire and average damage.
+		-Training Rifle - Has low DPS, but at the same time it is aimed at the target, practically without the participation of the owner. Due to the very high rate of fire it allows you to quickly increase the shooting skill of the owner, it is perfect for pawns with low shooting skills.
+		-"Eclipse" machinegun - very rare and expensive to make. Deals huge damage, but psi-active artifacts in it can cause behavioral instability.
+		-"Lord" - A powerful cannon that shoots clusters of clean energy. Has a low range of fire, but very high damage.
+
+		-NEW SYNCHRO WEAPONS:
+		-The "Winter" rifle is a unique non-reproducible technology of the "Mechalit" faction, it cannot be bought or created in the usual way, it is an incredibly powerful sniper rifle. Projectiles have an additional damaging factor - frostbite, which ignores armor. "Winter" is a ranged synchro weapon. With the add-on, Royalty acquires the unique features of the add-on synchro weapons.
+
+		-NEW MELEE WEAPONS:
+		-"Rapier" - Easy plasma blade. Does not do great damage, but has a high attack speed. Thanks to the built-in micro-turbines, the blade increases the speed of the owner's movement.
+
+		-NEW SYNCHRO MELEE WEAPONS
+		-The Plasma Disc is a melee weapon of devastating power. Has a low chance to stun the target.
+		-The Plasma Glaive is a powerful melee weapon, does not do as much damage as the Plasma Disk, but gives high psi-bonuses to the owner (with Royalty).
+		-The Imulse Glove is a unique melee synchro weapon. Has a 20% chance to deal 10 times more damage to the target
+
+		TERMINAL
+		Some weapons and equipment can only be crafted at the TERMINAL for astro-coins</description>
+</ModMetaData>

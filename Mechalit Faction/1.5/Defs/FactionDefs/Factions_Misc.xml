@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FactionDef ParentName="FactionBase" Name="MechalitYesFactionBase" Abstract="True">
+		<pawnSingular>warrior</pawnSingular>
+		<pawnsPlural>warriors</pawnsPlural>
+		<categoryTag>Warrior</categoryTag>
+		<listOrderPriority>15</listOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>leader</leaderTitle>
+		<autoFlee>false</autoFlee>
+		<xenotypeSet>
+			<xenotypeChances>
+				<MechaGen MayRequire="Ludeon.RimWorld.Biotech">1</MechaGen>
+			</xenotypeChances>
+		</xenotypeSet>
+		<factionIconPath>Other2/TownMehRed2</factionIconPath>
+		<techLevel>Spacer</techLevel>
+		<earliestRaidDays>150</earliestRaidDays>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Outlander</li>
+				</categories>
+				<commonality>0.95</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+				<commonality>0.05</commonality>
+			</li>
+		</backstoryFilters>
+		<allowedCultures>
+			<li>Kriminul</li>
+		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+		</requiredMemes>
+		<allowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+		</allowedMemes>
+		<structureMemeWeights>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+		</structureMemeWeights>
+		<raidLootMaker>PirateRaidLootMaker</raidLootMaker>
+		<caravanTraderKinds>
+			<li>Caravan_Mechalit_BulkGoods</li>
+			<li>Caravan_Mechalit_CombatSupplier</li>
+			<li>Caravan_Mechalit_Exotic</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Mechalit_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>-55~55</allowedArrivalTemperatureRange>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 205)</li>
+				<li>(1300, 205)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+	</FactionDef>
+
+	<FactionDef ParentName="MechalitYesFactionBase">
+		<defName>MehalitFaction</defName>
+		<label>High-tech warlike faction</label>
+		<description>High-tech warlike ancient faction. Members of the faction are aggressive to strangers, but love money. Therefore, you can still make friends with them, but you have to pay dearly.
+			The faction has mastered the high technologies that made it possible to create weapons that are stronger than power grips. But not all members of the faction are armed with the latest technology, because there are ranks in the faction. Only elite fighters of the faction deserve to wear the best armor and equipment. The bulk of the fighters of the faction — warriors and destroyers — are well equipped, but they are slightly weaker than those of elite warriors.
+			Scout factions are most often used in raids on young settlements and in most cases do not pose a particular threat, but even among scouts there are strong fighters with good cannons. The france warriors sometimes set themselves for artificial limbs.
+			The faction has long been using reprogrammed mechanoids to accompany their warriors. The leadership of the faction considered the ulans the most useful mechanoids. Therefore, the fraction uses improved modifications of the ulans created with the help of drawings of captured mechanoids. New mechanoids of the faction got a bright war paint to be more noticeable in battle and distract the enemy to themselves. The leadership of the Mehalit faction does not allow the faction’s equipment and armament to reach the less developed “not worthy” civilizations, therefore it obliges all fighters of the faction to wear special nano-teleporters who teleport all fighters and equipment from the battlefield. But this does not mean that you will be left with nothing. In place of defeated enemies remain resources from their inventories. Even ordinary fighters of the faction are quite rich and they always have some kind of resource.</description>
+		<fixedName>Mechalit</fixedName>
+		<settlementNameMaker>Namegen_MechalitFactionBase</settlementNameMaker>
+		<colorSpectrum>
+			<li>(0.66, 0.99, 0.99)</li>
+			<li>(0.66, 0.99, 0.99)</li>
+		</colorSpectrum>
+		<naturalEnemy>true</naturalEnemy>
+		<pawnGroupMakers>
+			<li>
+				<!-- Normal fights, standard mix -->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<options>
+					<MehalitWarriorE>5</MehalitWarriorE>
+					<MehalitWarriorGE>0.5</MehalitWarriorGE>
+					<MehalitDestroyer>3</MehalitDestroyer>
+					<MehalitScout>4</MehalitScout>
+					<MehalitWarrior>10</MehalitWarrior>
+					<MehalitWarriorL>0.01</MehalitWarriorL>
+					<Mech_Lancer_M>3</Mech_Lancer_M>
+					<Mech_Lancer_S>3</Mech_Lancer_S>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, standard mix -->
+				<kindDef>Combat</kindDef>
+				<commonality>20</commonality>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<options>
+					<Mech_Lancer_M>3</Mech_Lancer_M>
+					<Mech_Lancer_S>3</Mech_Lancer_S>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, standard mix -->
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<options>
+					<MehalitWarriorE>5</MehalitWarriorE>
+					<MehalitWarriorGE>0.5</MehalitWarriorGE>
+					<MehalitDestroyer>3</MehalitDestroyer>
+					<MehalitScout>4</MehalitScout>
+					<MehalitWarrior>10</MehalitWarrior>
+					<MehalitWarriorL>0.01</MehalitWarriorL>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<MehalitWarriorE>50</MehalitWarriorE>
+					<MehalitDestroyer>30</MehalitDestroyer>
+					<MehalitScout>30</MehalitScout>
+					<MehalitWarrior>100</MehalitWarrior>
+					<MehalitWarriorL>0.01</MehalitWarriorL>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<Mehalit_Trader>1</Mehalit_Trader>
+				</traders>
+				<carriers>
+					<Muffalo>6</Muffalo>
+					<Dromedary>5</Dromedary>
+					<Alpaca>2</Alpaca>
+					<Elephant>1</Elephant>
+				</carriers>
+				<guards>
+					<MehalitWarriorE>5</MehalitWarriorE>
+					<MehalitDestroyer>3</MehalitDestroyer>
+					<MehalitScout>3</MehalitScout>
+					<MehalitWarrior>15</MehalitWarrior>
+					<Mech_Lancer_M>2</Mech_Lancer_M>
+					<Mech_Lancer_S>2</Mech_Lancer_S>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<MehalitWarriorE_Defender>100</MehalitWarriorE_Defender>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+	</FactionDef>
+
+	<FactionDef ParentName="MechalitYesFactionBase">
+		<defName>MehalitFactionReg</defName>
+		<label>High-tech warlike renegats faction</label>
+		<description>It is a hostile faction that has split from the main faction "Mechalit". You can't make an alliance with her. High-tech warlike ancient faction. Members of the faction are aggressive to strangers, but love money. Therefore, you can still make friends with them, but you have to pay dearly.
+			The faction has mastered the high technologies that made it possible to create weapons that are stronger than power grips. But not all members of the faction are armed with the latest technology, because there are ranks in the faction. Only elite fighters of the faction deserve to wear the best armor and equipment. The bulk of the fighters of the faction — warriors and destroyers — are well equipped, but they are slightly weaker than those of elite warriors.
+			Scout factions are most often used in raids on young settlements and in most cases do not pose a particular threat, but even among scouts there are strong fighters with good cannons. The france warriors sometimes set themselves for artificial limbs.
+			The faction has long been using reprogrammed mechanoids to accompany their warriors. The leadership of the faction considered the ulans the most useful mechanoids. Therefore, the fraction uses improved modifications of the ulans created with the help of drawings of captured mechanoids. New mechanoids of the faction got a bright war paint to be more noticeable in battle and distract the enemy to themselves. The leadership of the Mehalit faction does not allow the faction’s equipment and armament to reach the less developed “not worthy” civilizations, therefore it obliges all fighters of the faction to wear special nano-teleporters who teleport all fighters and equipment from the battlefield. But this does not mean that you will be left with nothing. In place of defeated enemies remain resources from their inventories. Even ordinary fighters of the faction are quite rich and they always have some kind of resource.\n\n&lt;color=#FFC700&gt; This is a hostile fraction that separated from the main fraction of Mechalit. It is impossible to conclude a union.&lt;/color&gt;</description>
+		<fixedName>Mechalit Renegats</fixedName>
+		<settlementGenerationWeight>0.5</settlementGenerationWeight>
+		<permanentEnemy>true</permanentEnemy>
+		<settlementNameMaker>Namegen_MechalitFactionBaseR</settlementNameMaker>
+		<colorSpectrum>
+			<li>(0.99, 0.77, 0.44)</li>
+			<li>(0.99, 0.55, 0.33)</li>
+		</colorSpectrum>
+		<pawnGroupMakers>
+			<li>
+				<!-- Normal fights, standard mix -->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<options>
+					<MehalitWarriorER>5</MehalitWarriorER>
+					<MehalitWarriorGER>0.5</MehalitWarriorGER>
+					<MehalitDestroyer>3</MehalitDestroyer>
+					<MehalitScout>4</MehalitScout>
+					<MehalitWarrior>10</MehalitWarrior>
+					<MehalitWarriorLR>0.01</MehalitWarriorLR>
+					<Mech_Lancer_M>3</Mech_Lancer_M>
+					<Mech_Lancer_S>3</Mech_Lancer_S>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, standard mix -->
+				<kindDef>Combat</kindDef>
+				<commonality>20</commonality>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<options>
+					<Mech_Lancer_M>3</Mech_Lancer_M>
+					<Mech_Lancer_S>3</Mech_Lancer_S>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, standard mix -->
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<options>
+					<MehalitWarriorER>5</MehalitWarriorER>
+					<MehalitWarriorGER>0.5</MehalitWarriorGER>
+					<MehalitDestroyer>3</MehalitDestroyer>
+					<MehalitScout>4</MehalitScout>
+					<MehalitWarrior>10</MehalitWarrior>
+					<MehalitWarriorLR>0.01</MehalitWarriorLR>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<MehalitWarriorER>50</MehalitWarriorER>
+					<MehalitDestroyer>30</MehalitDestroyer>
+					<MehalitScout>30</MehalitScout>
+					<MehalitWarrior>100</MehalitWarrior>
+					<MehalitWarriorLR>0.01</MehalitWarriorLR>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<Mehalit_TraderR>1</Mehalit_TraderR>
+				</traders>
+				<carriers>
+					<Muffalo>6</Muffalo>
+					<Dromedary>5</Dromedary>
+					<Alpaca>2</Alpaca>
+					<Elephant>1</Elephant>
+				</carriers>
+				<guards>
+					<MehalitWarriorER>5</MehalitWarriorER>
+					<MehalitDestroyer>3</MehalitDestroyer>
+					<MehalitScout>3</MehalitScout>
+					<MehalitWarrior>15</MehalitWarrior>
+					<Mech_Lancer_M>2</Mech_Lancer_M>
+					<Mech_Lancer_S>2</Mech_Lancer_S>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<MehalitWarriorER_Defender>100</MehalitWarriorER_Defender>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+	</FactionDef>
+
+</Defs>

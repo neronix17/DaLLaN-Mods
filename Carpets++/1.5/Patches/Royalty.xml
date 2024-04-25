@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+  
+  
+  
+    <Operation Class="PatchOperationSequence"> 
+	  <success>Always</success> 
+	  <operations>
+
+	<li Class="PatchOperationAdd">
+		<xpath>*/TerrainDef[@Name="FloorBase"]/affordances</xpath>
+		<value>
+<li>Plitka</li>
+		</value>
+	</li>
+	<li Class="PatchOperationAdd">
+		<xpath>*/TerrainDef[defName = "Bridge"]/affordances</xpath>
+		<value>
+<li>Plitka</li>
+		</value>
+	</li>
+		<li Class="PatchOperationAdd">
+	<xpath>*/TerrainDef[@Name="FloorBaseCarpet"]/affordances</xpath>
+	<value><li>Plitka</li></value></li>
+		<li Class="PatchOperationAdd">
+	<xpath>*/TerrainDef[@Name="FloorStraw"]/affordances</xpath>
+	<value><li>Plitka</li></value></li>		
+		<li Class="PatchOperationAdd">
+	<xpath>*/TerrainDef[@Name="FloorBaseStone"]/affordances</xpath>
+	<value><li>Plitka</li></value></li>	
+			<li Class="PatchOperationAdd">
+	<xpath>*/TerrainDef[@Name="FloorBaseWood"]/affordances</xpath>
+	<value><li>Plitka</li></value></li>	
+	  </operations>
+  </Operation>
+  
+  
+  	<!--Operation Class="PatchOperationFindMod">
+    	<mods>
+        	<li>[T] MoreFloors</li>
+    	</mods>
+  <match Class="PatchOperationSequence"> 
+	  <success>Always</success> 
+	  <operations>
+	<li Class="PatchOperationAdd">
+	<xpath>*/TerrainDef[@Name="FloorBaseCarpet"]/affordances</xpath>
+	<value><li>Plitka</li></value></li>
+		<li Class="PatchOperationAdd">
+	<xpath>*/TerrainDef[@Name="FloorStraw"]/affordances</xpath>
+	<value><li>Plitka</li></value></li>		
+		<li Class="PatchOperationAdd">
+	<xpath>*/TerrainDef[@Name="FloorBaseStone"]/affordances</xpath>
+	<value><li>Plitka</li></value></li>	
+			<li Class="PatchOperationAdd">
+	<xpath>*/TerrainDef[@Name="FloorBaseWood"]/affordances</xpath>
+	<value><li>Plitka</li></value></li>	
+	  </operations>
+  </match>
+  	</Operation-->
+  
+</Patch>

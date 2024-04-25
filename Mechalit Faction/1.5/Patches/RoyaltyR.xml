@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<!-- ============================== armor gold ============================== -->
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_ArmorMechalitEliteMeh"]/apparel/tags</xpath>
+					<value>
+						<li>PrestigeCombatGear</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_ArmorMechalitEliteMeh"]/equippedStatOffsets</xpath>
+					<value>
+						<PsychicSensitivity>0.05</PsychicSensitivity>
+						<PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_ArmorMechalitEliteMehRRR"]/apparel/tags</xpath>
+					<value>
+						<li>PrestigeCombatGear</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_ArmorMechalitEliteMehRRR"]/equippedStatOffsets</xpath>
+					<value>
+						<PsychicSensitivity>0.05</PsychicSensitivity>
+						<PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+					</value>
+				</li>
+				<!-- ============================== helm ============================== -->
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_HelmetMechalitEliteMeh"]/apparel/tags</xpath>
+					<value>
+						<li>PrestigeCombatGear</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_HelmetMechalitEliteMeh"]/equippedStatOffsets</xpath>
+					<value>
+						<PsychicSensitivity>0.05</PsychicSensitivity>
+						<PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_HelmetMechalitEliteMehRRR"]/apparel/tags</xpath>
+					<value>
+						<li>PrestigeCombatGear</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_HelmetMechalitEliteMehRRR"]/equippedStatOffsets</xpath>
+					<value>
+						<PsychicSensitivity>0.05</PsychicSensitivity>
+						<PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+					</value>
+				</li>
+				<!-- ============================== Legacy armor ============================== -->
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_ArmorLegacyEliteMeh"]/apparel/tags</xpath>
+					<value>
+						<li>PrestigeCombatGear</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_ArmorLegacyEliteMeh"]/equippedStatOffsets</xpath>
+					<value>
+						<PsychicSensitivity>0.07</PsychicSensitivity>
+						<PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_ArmorLegacyEliteMehRRR"]/apparel/tags</xpath>
+					<value>
+						<li>PrestigeCombatGear</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_ArmorLegacyEliteMehRRR"]/equippedStatOffsets</xpath>
+					<value>
+						<PsychicSensitivity>0.07</PsychicSensitivity>
+						<PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+					</value>
+				</li>
+				<!-- ============================== Legacy helm ============================== -->
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_HelmetLegacyEliteMeh"]/apparel/tags</xpath>
+					<value>
+						<li>PrestigeCombatGear</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_HelmetLegacyEliteMeh"]/equippedStatOffsets</xpath>
+					<value>
+						<PsychicSensitivity>0.07</PsychicSensitivity>
+						<PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_HelmetLegacyEliteMehRRR"]/apparel/tags</xpath>
+					<value>
+						<li>PrestigeCombatGear</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Apparel_HelmetLegacyEliteMehRRR"]/equippedStatOffsets</xpath>
+					<value>
+						<PsychicSensitivity>0.07</PsychicSensitivity>
+						<PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+					</value>
+				</li>
+				<!-- ============================== glaive ============================== -->
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "MeleeWeapon_PlasmGlaive"]/equippedStatOffsets</xpath>
+					<value>
+						<PsychicSensitivity>0.6</PsychicSensitivity>
+						<PsychicEntropyRecoveryRate>0.12</PsychicEntropyRecoveryRate>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "MeleeWeapon_PlasmGlaive"]/comps</xpath>
+					<value>
+						<li Class="CompProperties_BladelinkWeapon">
+							<biocodeOnEquip>true</biocodeOnEquip>
+						</li>
+						<li Class="CompProperties_GeneratedName">
+							<nameMaker>NamerWeaponBladelink</nameMaker>
+						</li>
+					</value>
+				</li>
+				<!-- ============================== disk ============================== -->
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "MeleeWeapon_PlasmDisk"]/comps</xpath>
+					<value>
+						<li Class="CompProperties_BladelinkWeapon">
+							<biocodeOnEquip>true</biocodeOnEquip>
+						</li>
+						<li Class="CompProperties_GeneratedName">
+							<nameMaker>NamerWeaponBladelink</nameMaker>
+						</li>
+					</value>
+				</li>
+				<!-- ============================== Glove ============================== -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "MeleeWeapon_ImpulseGlove"]/comps</xpath>
+					<value>
+						<li Class="CompProperties_BladelinkWeapon">
+							<biocodeOnEquip>true</biocodeOnEquip>
+						</li>
+						<li Class="CompProperties_GeneratedName">
+							<nameMaker>NamerWeaponBladelink</nameMaker>
+						</li>
+					</value>
+				</li>
+				<!-- ============================== Winter ============================== -->
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Gun_Winter"]</xpath>
+					<value>
+						<comps>
+							<li Class="CompProperties_BladelinkWeapon">
+								<biocodeOnEquip>true</biocodeOnEquip>
+							</li>
+							<li Class="CompProperties_GeneratedName">
+								<nameMaker>NamerWeaponBladelink</nameMaker>
+							</li>
+						</comps>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Gun_Winter"]</xpath>
+					<value>
+						<equippedStatOffsets>
+							<PsychicSensitivity>0.25</PsychicSensitivity>
+							<PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
+						</equippedStatOffsets>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingSetMakerDef[defName = "Reward_ItemsStandard"]/root/options/li[1]/maxMarketValue</xpath>
+		<value>
+			<maxMarketValue>8500</maxMarketValue>
+		</value>
+	</Operation>
+
+</Patch>
